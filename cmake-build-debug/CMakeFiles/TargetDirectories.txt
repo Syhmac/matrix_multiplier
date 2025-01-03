@@ -1,3 +1,3 @@
-C:/Users/Syhma/CLionProjects/projekt_końcowo_semsetralny_1/cmake-build-debug/CMakeFiles/projekt_kocowo_semsetralny_1.dir
-C:/Users/Syhma/CLionProjects/projekt_końcowo_semsetralny_1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Syhma/CLionProjects/projekt_końcowo_semsetralny_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Syhma/CLionProjects/projekt_koncowo_semsetralny_1/cmake-build-debug/CMakeFiles/projekt_kocowo_semsetralny_1.dir
+C:/Users/Syhma/CLionProjects/projekt_koncowo_semsetralny_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Syhma/CLionProjects/projekt_koncowo_semsetralny_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
