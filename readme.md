@@ -12,9 +12,11 @@
 9. Function based code.
 
 ## Input file format
-Both input files are formated in the same way. In this repository, you will find 2 example files.
-(The files are in the `cmake-build-debug` directory, where the compiled program is stored.)
-To multiply different matrix, replace the contents of the example files following the rules below.  
+Both input files are formated in the same way. In this repository, you will find 2 example files
+(The files are in the `example_input_files` directory).
+To multiply different matrices, replace the contents of the example files - 
+or create new files -
+following the rules below and place them in the same directory as the compiled executable file.
 
 In the first line, you should include a size of the matrix. First number describes the amount of columns.
 Second number - separated by a single whitespace - describes the number of rows.
@@ -40,11 +42,10 @@ Program will create a file called `result.txt` if the input matrices can be mult
 Result file will contain the result matrix where items in rows are seperated by a single whitespace.
 Rows are seperated by a newline character. For example:
 ```
-13 12 8 11 
-23 16 16 23 
-21 17 13 19 
-13 12 8 11 
-
+13 12 8 11
+23 16 16 23
+21 17 13 19
+13 12 8 11
 ```
 
 ## Building

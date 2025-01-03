@@ -1,4 +1,5 @@
 // Created: 2025-01-03 17:00:00
+// V 1.0.1
 // Comment lang: EN
 // CMD text lang: PL
 #include <ctype.h>
@@ -74,10 +75,13 @@ void save_matrix(int** matrix, const struct matrix_size size) {
     // Takes the pointer to the matrix and the struct with its size as arguments
     FILE *file = fopen("result.txt", "w");
     for (int i = 0; i < size.row; i++) {
-        for (int j = 0; j < size.col; j++) {
+        for (int j = 0; j < size.col - 1; j++) {
             fprintf(file, "%d ", matrix[j][i]);
         }
-        fprintf(file, "\n");
+        fprintf(file, "%d", matrix[size.col - 1][i]); // To avoid the space at the end of the line
+        if (i < size.row - 1) {
+            fprintf(file, "\n"); // To avoid the newline character at the end of the file
+        }
     }
     close_file(file);
 }
