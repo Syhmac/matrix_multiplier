@@ -2,7 +2,6 @@
 // Comment lang: EN
 // CMD text lang: PL
 #include <ctype.h>
-#include <float.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h> // Including the module that lets the program print UTF-8 characters
